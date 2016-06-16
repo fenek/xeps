@@ -459,7 +459,7 @@
     from='muclight.shakespeare.lit'>
     <query xmlns='urn:xmpp:muclight:0#blocking'>
         <room action='deny'>coven@muclight.shakespeare.lit</room>
-        <user action='deny'>hag77@shakespeare.lit</room>
+        <user action='deny'>hag77@shakespeare.lit</user>
     </query>
 </iq>
             ]]></example>
@@ -491,8 +491,8 @@
     to='muclight.shakespeare.lit'
     type='set'>
     <query xmlns='urn:xmpp:muclight:0#blocking'>
-        <user action='deny'>hag66@shakespeare.lit</room>
-        <user action='deny'>hag77@shakespeare.lit</room>
+        <user action='deny'>hag66@shakespeare.lit</user>
+        <user action='deny'>hag77@shakespeare.lit</user>
     </query>
 </iq>
 
@@ -512,7 +512,7 @@
     type='set'>
     <query xmlns='urn:xmpp:muclight:0#blocking'>
         <room action='allow'>coven@muclight.shakespeare.lit</room>
-        <user action='allow'>hag66@shakespeare.lit</room>
+        <user action='allow'>hag66@shakespeare.lit</user>
     </query>
 </iq>
 
